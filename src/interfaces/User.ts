@@ -9,7 +9,9 @@ export interface User {
         state: string;
         country: string;
     };
-    email: string;
+    login: {
+        uuid: string;
+    }
     dob: {
         age: number;
     };
